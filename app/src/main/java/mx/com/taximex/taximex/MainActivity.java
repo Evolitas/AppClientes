@@ -85,9 +85,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 BufferedReader reader=new BufferedReader(new InputStreamReader(in));
 
                 while ((linea=reader.readLine())!=null){
-
                     resul.append(linea);
-
                 }
             }
 
