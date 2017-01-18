@@ -2,6 +2,23 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <EditText
+                android:id="@+id/txtorigen"
+                android:hint="Buscar dirección"
+
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/cmdBuscar"
+                android:text="@string/Buscar"
+                />
+        </TableRow>
+    </TableLayout>
 <fragment
 
 android:id="@+id/map"

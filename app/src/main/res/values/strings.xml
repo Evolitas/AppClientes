@@ -6,4 +6,6 @@
     <string name="ingresar">Ingresar</string>
     <string name="registrarse">Registrarse</string>
     <string name="Registro">Registro</string>
+    <string name="cargando">Cargando</string>
+    <string name="Buscar">Buscar</string>
 </resources>
